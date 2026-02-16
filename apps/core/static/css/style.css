@@ -3,24 +3,23 @@
 */
 
 /*--------------------------------------------------------------
-# General – Student Management System by Varun (emerald theme)
+# General – Student Management System by Varun (blue theme)
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
-  --sms-primary: #059669;
-  --sms-primary-hover: #047857;
-  --sms-primary-light: #10b981;
-  --sms-dark: #064e3b;
-  --sms-bg-light: #ecfdf5;
-  --sms-shadow: rgba(5, 150, 105, 0.1);
-  --sms-shadow-15: rgba(5, 150, 105, 0.15);
-  --sms-shadow-2: rgba(5, 150, 105, 0.2);
-  --sms-shadow-3: rgba(5, 150, 105, 0.3);
-  /* Force Bootstrap to use green instead of blue */
-  --bs-primary: #059669;
-  --bs-primary-rgb: 5, 150, 105;
-  --bs-link-color: #059669;
-  --bs-link-hover-color: #047857;
+  --sms-primary: #0d6efd;
+  --sms-primary-hover: #0a58ca;
+  --sms-primary-light: #6ea8fe;
+  --sms-dark: #052c65;
+  --sms-bg-light: #e0edff;
+  --sms-shadow: rgba(13, 110, 253, 0.1);
+  --sms-shadow-15: rgba(13, 110, 253, 0.15);
+  --sms-shadow-2: rgba(13, 110, 253, 0.2);
+  --sms-shadow-3: rgba(13, 110, 253, 0.3);
+  --bs-primary: #0d6efd;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-link-color: #0d6efd;
+  --bs-link-hover-color: #0a58ca;
 }
 
 body {
@@ -39,7 +38,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* Override Bootstrap primary and links – no blue, use green */
+/* Override Bootstrap primary and links – blue theme */
 .btn-primary,
 a.btn-primary {
   background-color: var(--sms-primary) !important;
@@ -164,7 +163,7 @@ h6 {
 }
 
 .dropdown-menu .dropdown-divider {
-  color: #6ee7b7;
+  color: #9ec5fe;
   margin: 0;
 }
 
@@ -215,8 +214,8 @@ h6 {
 
 /* Light Backgrounds */
 .bg-primary-light {
-  background-color: #a7f3d0;
-  border-color: #a7f3d0;
+  background-color: #cfe2ff;
+  border-color: #cfe2ff;
 }
 
 .bg-secondary-light {
@@ -855,12 +854,12 @@ h6 {
 
 .dashboard .sales-card .card-icon {
   color: var(--sms-primary);
-  background: #ecfdf5;
+  background: #e0edff;
 }
 
 .dashboard .revenue-card .card-icon {
-  color: #2eca6a;
-  background: #e0f8e9;
+  color: #0d6efd;
+  background: #cfe2ff;
 }
 
 .dashboard .customers-card .card-icon {
@@ -954,7 +953,7 @@ h6 {
 }
 
 .dashboard .recent-sales .table thead {
-  background: #ecfdf5;
+  background: #e0edff;
 }
 
 .dashboard .recent-sales .table thead th {
@@ -975,7 +974,7 @@ h6 {
 }
 
 .dashboard .top-selling .table thead {
-  background: #ecfdf5;
+  background: #e0edff;
 }
 
 .dashboard .top-selling .table thead th {
@@ -1048,7 +1047,7 @@ h6 {
 .profile .profile-card .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(5, 150, 105, 0.5);
+  color: rgba(13, 110, 253, 0.5);
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
@@ -1069,12 +1068,12 @@ h6 {
 
 .profile .profile-overview .label {
   font-weight: 600;
-  color: rgba(5, 150, 105, 0.6);
+  color: rgba(13, 110, 253, 0.6);
 }
 
 .profile .profile-edit label {
   font-weight: 600;
-  color: rgba(5, 150, 105, 0.6);
+  color: rgba(13, 110, 253, 0.6);
 }
 
 .profile .profile-edit img {
@@ -1134,7 +1133,7 @@ h6 {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #0d6efd;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -1156,7 +1155,7 @@ h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #0d6efd;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
